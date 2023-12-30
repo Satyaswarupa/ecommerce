@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins&family=Roboto:wght@100;500;700;900&display=swap');
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(20, 192, 211);
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+footer .col img {
+    margin-bottom: 30px;
+}
+
+footer .col h4 {
+   
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: aliceblue;
+}
+
+footer .col p {
+    font-size: 15px;
+    margin: 0 0 8px 0;
+    color: aliceblue;
+    font-weight: 900;
+}
+
+footer a {
+    font-size: 15px;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer .follow {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #818ea0;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img {
+    border: 1px solid #E64398;
+    border-radius: 6px;
+}
+
+footer .install img {
+    margin: 10px 0px 15px 0px;
+}
+
+footer .follow i:hover,
+footer a:hover {
+    color: #E64398;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
