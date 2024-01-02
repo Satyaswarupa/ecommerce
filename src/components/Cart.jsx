@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/cart.scss"
+import { AiFillDelete } from "react-icons/ai";
 
 const Cart = () => {
   return (
@@ -24,7 +25,7 @@ const Cart = () => {
             <tr>
               <td>
                 <a href="">
-                  <i className="far fa-times-circle"></i>
+                  <i className="far fa-times-circle"><AiFillDelete /></i>
                 </a>
               </td>
               <td>
@@ -40,7 +41,7 @@ const Cart = () => {
             <tr>
               <td>
                 <a href="">
-                  <i className="far fa-times-circle"></i>
+                  <i className="far fa-times-circle"><AiFillDelete /></i>
                 </a>
               </td>
               <td>
@@ -56,7 +57,7 @@ const Cart = () => {
             <tr>
               <td>
                 <a href="">
-                  <i className="far fa-times-circle"></i>
+                  <i className="far fa-times-circle"><AiFillDelete /></i>
                 </a>
               </td>
               <td>
